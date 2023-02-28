@@ -1,0 +1,97 @@
+
+.logindahboard{
+    display: grid;
+    justify-content: center;
+    /* margin: 0; */
+    padding-bottom: 30px;
+}
+
+.logindashtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(221, 30, 231);
+    padding: 10px 0 10px 20px;
+    /* border-bottom: 2px solid grey; */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.logindiv{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(224, 110, 210);
+}
+.logintitle{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(91, 90, 90);
+}
+.logininputfield{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.logininputfield>input{
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px grey;
+    border: none;
+    padding: 5px 0 5px 20px;
+    background-color: rgb(241, 241, 242);
+    font-size: 14px;
+}
+.logininputfield>input:focus{
+    /* border: 3px solid rgb(187, 223, 254); */
+    box-shadow: 0 0 8px rgb(230, 87, 230);
+
+}
+
+.checkbox{
+    /* border: 1px solid black; */
+    margin: 10px 0 10px 15px;
+    
+    display: flex;
+}
+.checkbox>div{
+    margin-left: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+}
+.checkbox>input{
+    /* border: 1px solid black; */
+    /* box-shadow: 0 0 2px rgb(129, 193, 249); */
+    height: 10px;
+    margin-top: 3px;
+    
+}
+.loginbtn1>button,.loginbtn2>button,.loginbtn3>button{
+    margin: 10px;
+    width: 20rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.loginbtn1>button{
+    background-color: rgb(66, 134, 194);
+    color: rgb(215, 214, 214);
+}
+.loginbtn2>button{
+    background-color: rgb(179, 6, 6);
+    color: rgb(215, 214, 214);
+}
+.loginbtn3>button{
+    background-color: rgb(6, 91, 165);
+    color: rgb(215, 214, 214);
+
+}
+.loginbtn2>button>span,.loginbtn3>button>span{
+    margin-left: 10px;
+}

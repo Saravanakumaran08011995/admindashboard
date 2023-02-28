@@ -1,0 +1,39 @@
+.cardDash{
+  display: grid;
+  /* justify-content: center; */
+  background-color: rgb(240, 151, 241);
+}
+.cardDash{
+    /* border: 1px solid black; */
+    padding-bottom: 10px;
+    /* display: grid; */
+    justify-content: center;
+}
+
+.cardDashTitle{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(239, 81, 228);
+    padding: 10px 0 10px 20px;
+    /* border-bottom: 2px solid grey; */
+    margin-bottom: 15px;
+}
+
+.basicCard{
+   border: 1px solid rgb(212, 20, 20);
+   margin: 10px;
+   border-radius: 5px;
+   width: 70vw;
+}
+.basicCardtitle{
+    border-bottom: 1px solid rgb(211, 98, 98);
+  color: rgb(74, 73, 73);
+  padding: 5px 0 5px 10px;
+  background-color: rgb(232, 240, 246);
+  border-radius: 5px 5px 0 0;
+}
+.basicCardBody{
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0 0 5px 5px;
+}

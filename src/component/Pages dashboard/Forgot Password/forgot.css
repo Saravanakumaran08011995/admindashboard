@@ -1,0 +1,109 @@
+
+.forgotdashboard{
+    display: grid;
+    justify-content: center;
+    /* height: 90vh; */
+    padding-bottom: 25vh;
+}
+.forgotdashtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(224, 34, 234);
+    padding: 10px 0 10px 20px;
+    /* border-bottom: 2px solid grey; */
+    margin-bottom: 15px;
+   text-align: center;
+
+}
+
+.forgotdiv{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(226, 122, 200);
+    width: 360px;
+   
+}
+.forgottitle{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 10px 20px 10px;
+    font-size: 20px;
+    color: rgb(28, 27, 27);
+    margin-bottom: 10px;
+}
+.forgotinputfield{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.forgotinputfield>input{
+    /* margin: 10px; */
+    border-radius: 20px;
+    box-shadow: 0 0 5px grey;
+    border: none;
+    padding: 5px 0 5px 20px;
+    background-color: rgb(241, 241, 242);
+    font-size: 14px;
+   
+}
+.forgotinputfield>input:focus{
+    /* border: 3px solid rgb(187, 223, 254); */
+    box-shadow: 0 0 8px rgb(2, 73, 135);
+
+}
+
+.forgotbtn{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.forgotbtn>button{
+    margin: 10px;
+    width: 200px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(192, 20, 223);
+    color: rgb(9, 0, 0);
+    border: none;
+    padding: 10px;
+    height: max-content;
+}
+
+.forgotbtn>button:hover{
+    transition: all 300ms;
+    color: black;
+    background-color: rgb(5, 138, 255);
+    /* padding: 12px; */
+    font-size: 18px;
+}
+
+.forgotdescription{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(59, 59, 59);
+}
+
+
+.link{
+    
+    color: blue;
+    font-size: 14px;
+   /* border: 1px solid black;   */
+   text-align: center;
+}
+.link>span{
+    cursor: pointer;
+}
+
+.link>span:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,77 @@
+
+
+.maindash{
+    /* border: 1px solid black; */
+    display: grid;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    /* border: 1px solid black; */
+    /* overflow-y: hidden; */
+    justify-content: center;
+    background-color: rgb(235, 159, 235);
+    
+}
+.tittle{
+    /* border: 1px solid black; */
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-areas: 
+    
+    "title . . . . . . . btn"
+    
+    ;
+}
+.dash-title{
+    /* border: 1px solid black; */
+    grid-area: title;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(200, 70, 243);
+    padding: 10px 0 10px 5px;
+    /* border-bottom: 2px solid grey; */
+    margin-bottom: 15px;
+}
+.dash-btn{
+    /* border: 1px solid black; */
+    grid-area: btn;
+    margin-top: 33px;
+    
+    
+}
+.dash-btn>button{
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px 4px 8px;
+    font-size: 12px;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px grey;
+}
+
+.dash-btn>button:hover{
+    background-color: rgb(206, 230, 250);
+    font-weight: bolder;
+    box-shadow: 0 0 10px rgb(145, 145, 145);
+}
+.colordash{
+    margin: 15px 10px 15px 10px;
+    width: 70vw;
+}
+.colordiv{
+/* border: 1px solid black; */
+margin: 10px;
+padding: 10px;
+border-radius: 10px;
+}
+
+.colortitle{
+    /* border: 1px solid black; */
+    margin: 5px;
+    padding: 5px;
+}
+.color{
+    /* border: 1px solid black; */
+    margin: 5px;
+    padding: 5px;
+    color: rgb(219, 216, 216);
+    font-size: 13px;
+}

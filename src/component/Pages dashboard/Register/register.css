@@ -1,0 +1,80 @@
+
+
+.registerdashboard{
+    display: grid;
+    justify-content: center;
+    
+}
+
+.registerdashtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(230, 49, 202);
+    padding: 10px 0 10px 20px;
+    /* border-bottom: 2px solid grey; */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.registerdiv{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(218, 128, 239);
+    width: max-content;
+}
+.registertitle{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(91, 90, 90);
+}
+.registerinputfield{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.registerinputfield>input{
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px grey;
+    border: none;
+    padding: 5px 0 5px 20px;
+    background-color: rgb(241, 241, 242);
+    font-size: 14px;
+}
+.registerinputfield>input:focus{
+    /* border: 3px solid rgb(187, 223, 254); */
+    box-shadow: 0 0 8px rgb(230, 114, 226);
+
+}
+
+
+.registerbtn1>button,.registerbtn2>button,.registerbtn3>button{
+    margin: 20px;
+    width: 20rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.registerbtn1>button{
+    background-color: rgb(66, 134, 194);
+    color: rgb(215, 214, 214);
+}
+.registerbtn2>button{
+    background-color: rgb(179, 6, 6);
+    color: rgb(215, 214, 214);
+}
+.registerbtn3>button{
+    background-color: rgb(6, 91, 165);
+    color: rgb(215, 214, 214);
+
+}
+.registerbtn2>button>span,.registerbtn3>button>span{
+    margin-left: 10px;
+}

@@ -1,0 +1,21 @@
+
+.colordashboard{
+    background-color: rgb(241, 150, 246);
+    margin: 0;
+    border-radius: 0%;
+    display: grid;
+    justify-content: center;
+}
+.colorDashTitle{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(218, 20, 228);
+    padding: 10px 0 10px 20px;
+    /* border-bottom: 2px solid grey; */
+    margin-bottom: 15px;
+    text-align: center;
+}
+.colorexample{
+    border: 1px solid black;
+    height: 40px;
+}

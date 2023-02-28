@@ -1,0 +1,52 @@
+
+
+
+.projects{
+    border: 1px solid black;
+    width: 70vw;
+ background-color: aliceblue;
+ margin: 10px;
+ margin-bottom: 30px;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px black;
+}
+.title{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size:18px;
+    /* border:1px solid black; */
+    border-bottom: 2px solid rgb(174, 173, 173);
+    /* border-radius: 50%; */
+    color: rgb(16, 86, 176);
+}
+.project{
+    /* border: 1px solid black; */
+    padding: 5px;
+    margin-top: 10px;
+}
+.project-header{
+     /* border: 1px solid black; */
+    display: grid;
+    grid-template-areas: 
+     
+    "title . . . . . . . . percent"
+    
+    ;
+    
+}
+.project-title{
+     /* border: 1px solid black; */
+     font-weight: bolder;
+     color: grey;
+     font-size: 12px;
+    grid-area: title;
+}
+.progresspercent{
+     /* border: 1px solid black; */
+    grid-area: percent;
+    font-weight: bolder;
+    font-size: 12px;
+    color: grey;
+}

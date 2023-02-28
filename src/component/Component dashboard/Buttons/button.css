@@ -1,0 +1,51 @@
+
+.ButtonDiv{
+    /* border: 1px solid black; */
+    display: grid;
+    justify-content: center;
+    /* height: 85vh; */
+    padding-bottom:13vh ;
+    background-color: rgb(227, 205, 232);
+}
+.btndash{
+    /* border: 1px solid black; */
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(191, 54, 236);
+    padding: 10px 0 10px 20px;
+    /* border-bottom: 2px solid grey; */
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+.btn-circle{
+    /* border: 10px solid black; */
+    border-radius: 70%;
+    margin-left: 25px;
+    
+}
+
+.circlebtn{
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(219, 159, 237);
+}
+.btncontent{
+    /* border: 1px solid black; */
+    margin: 15px;
+    padding: 15px;
+}
+
+.btntitle{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(82, 72, 85);
+    padding: 10px 0 10px 0;
+    border-bottom: 2px solid grey;
+    margin-bottom: 5px;
+}

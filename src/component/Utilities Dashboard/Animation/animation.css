@@ -1,0 +1,117 @@
+
+.animationdash{
+    /* border: 1px solid black; */
+    padding-bottom: 25vh;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(231, 149, 239);
+}
+
+.animationDashTitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(232, 12, 213);
+    padding: 10px 0 10px 20px;
+    /* border-bottom: 2px solid grey; */
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.dropdn{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 5px;
+    width: 70vw;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(234, 244, 252);
+    /* height: 50vh; */
+}
+.dropdownTitle{
+    color: rgb(222, 116, 224);
+    font-weight: bolder;
+    border-bottom: 2px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 60vw;
+}
+.element1{
+    color: rgb(195, 7, 7);
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 13px;
+    width: 60vw;
+}
+.dropdownbtnbody{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    width: 60vw;
+    /* height: 10vh; */
+    background-color: rgb(211, 231, 248) !important;
+    
+    /* grid-template-columns: auto 130px; */
+    grid-template-areas: 
+    "nav . . . . . . . . . . . . . . btn"
+    ;
+
+}
+.dropdownbtntitle{
+    /* border: 1px solid black; */
+    padding-left: 20px;
+    font-weight: bold;
+    color: rgb(84, 83, 83);
+    grid-area: nav;
+    
+}
+.dropdowndiv{
+    display: grid;
+    justify-content: center;
+    /* border: 1px solid black; */
+    /* margin-left: 90px; */
+    grid-area: btn;
+    /* margin: 0; */
+    width: 130px;
+    
+    
+    
+}
+#dropdown-basic{
+    font-size: 12px;
+}
+.dropdn>p{
+    padding: 20px 0 0 15px;
+    font-size: 14px;
+    color: grey;
+    width: 60vw;
+}
+
+.animationutilities{
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 10px;
+    width: 70vw;
+    /* display: grid;
+    justify-content: center; */
+    box-shadow: 0 0 10px grey inset;
+    border-radius: 10px;
+    background-color: rgb(234, 244, 252);
+
+   
+}
+.animationutilities>p{
+      /* padding-left: 10px; */
+      color: rgb(84, 83, 83);
+      padding: 20px;
+      
+}
+.animationutilities>h1{
+    color: rgb(75, 75, 75);
+    text-align: center;
+}
